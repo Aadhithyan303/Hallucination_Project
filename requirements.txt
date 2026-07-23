@@ -1,0 +1,32 @@
+# Self-Verifying RAG System — Requirements
+# Install with: pip install -r requirements.txt
+
+# Core LLM & RAG
+openai>=1.0.0
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# Embeddings
+sentence-transformers>=2.6.0
+
+# Document loaders
+pypdf>=4.0.0
+unstructured>=0.12.0
+
+# Evaluation
+ragas>=0.1.0
+datasets>=2.18.0
+
+# Utilities
+numpy>=1.26.0
+pandas>=2.2.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+torch
+transformers
+accelerate
+streamlit

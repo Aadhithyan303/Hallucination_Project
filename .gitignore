@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables & API keys
+.env
+*.env
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vector store cache & temporary files
+faiss_index/
+*.log

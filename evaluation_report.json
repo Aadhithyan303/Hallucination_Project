@@ -1,0 +1,56 @@
+{
+  "summary": {
+    "total_questions": 5,
+    "avg_hallucination_score": 0.4025,
+    "hallucination_rate": 1.0,
+    "hallucination_free_rate": 0.0,
+    "correction_rate": 1.0
+  },
+  "per_question": [
+    {
+      "question": "What is Retrieval-Augmented Generation?",
+      "ground_truth": "RAG combines retrieval systems with language model generation.",
+      "generated_answer": "Retrieval-Augmented Generation is a type of semantic search that uses an LLM to answer questions using external knowledge.\n\nRetrieval-Augmented Generation is a type of semantic search that uses an LLM to answer questions using external knowledge.\n\nRetrieval-Augmented Generation is a type of semantic search that uses an LLM to answer questions using external knowledge.\n\nRetrieval-Augmented Generation is a type of semantic search that uses an LLM to answer questions using external knowledge.",
+      "hallucination_score": 0.4375,
+      "correction_attempted": true,
+      "correction_succeeded": true,
+      "attempts": 3
+    },
+    {
+      "question": "What is hallucination in LLMs?",
+      "ground_truth": "Hallucination is generating factually incorrect or unsupported text.",
+      "generated_answer": "Hallucination is a phenomenon where a language model generates text that sounds plausible but is not based on factual information.\n\nHallucination in LLMs refers to the process by which a language model generates text that sounds plausible but is not based on factual information.",
+      "hallucination_score": 0.4444444444444444,
+      "correction_attempted": true,
+      "correction_succeeded": true,
+      "attempts": 3
+    },
+    {
+      "question": "How does self-verification work in RAG?",
+      "ground_truth": "The LLM checks its own output for factual consistency with retrieved documents.",
+      "generated_answer": "Self-verification is a technique where the LLM evaluates its own output for factual consistency with retrieved documents.\n\nThe LLM uses a knowledge graph to represent the retrieved documents and their relationships.\n\nThe LLM generates a response based on the retrieved documents and the knowledge graph.\n\nThe LLM uses a knowledge graph to represent the retrieved documents and their relationships.\n\nThe LLM generates a response based on the retrieved documents and the knowledge graph.\n\nThe LLM uses a knowledge graph to represent the retrieved documents and their relationships.\n\nThe LLM generates a response based on the retrieved documents and the knowledge graph.\n\nThe LLM uses a knowledge graph to represent the retrieved documents and their relationships.\n\nThe LLM generates a response based on the retrieved documents and the knowledge graph.\n\nThe LLM uses a knowledge graph to represent the retrieved documents and their relationships.\n\nThe LLM generates a response based on the retrieved documents and the knowledge graph.\n\nThe LLM uses a knowledge graph to represent the retrieved documents and their relationships.\n\nThe LLM generates a response based on the retrieved documents and the knowledge graph.\n\nThe LLM uses a knowledge graph to represent the retrieved documents and their relationships",
+      "hallucination_score": 0.44285714285714284,
+      "correction_attempted": true,
+      "correction_succeeded": true,
+      "attempts": 3
+    },
+    {
+      "question": "What is FAISS?",
+      "ground_truth": "FAISS is a library for fast approximate nearest-neighbour search over dense embeddings.",
+      "generated_answer": "FAISS is a framework that enables fast approximate nearest-neighbor search over dense vector embeddings. FAISS provides metrics like faithfulness, answer relevancy, and context recall for evaluating RAG pipelines.\n\nThe RAGAS framework provides metrics like faithfulness, answer relevancy, and context recall for evaluating RAG pipelines.\n\nSUPPORTED means the claim is fully and directly backed by the retrieved context.\n\nSelf-verification is a technique where the LLM evaluates its own output for factual consistency with retrieved documents.\n\nThe system supports ingestion of TXT files, PDF documents, and full directories of documents.",
+      "hallucination_score": 0.2962962962962963,
+      "correction_attempted": true,
+      "correction_succeeded": true,
+      "attempts": 2
+    },
+    {
+      "question": "What are sentence transformers?",
+      "ground_truth": "Sentence transformers produce dense vector embeddings for semantic similarity.",
+      "generated_answer": "Sentence transformers are a type of language model that uses a combination of recurrent neural networks (RNNs) and transformers to generate text.\n\nThe default embedding model is sentence-transformers/all-MiniLM-L6-v2.\n\nRetrieval-Augmented Generation (RAG) combines a retrieval system with an LLM to answer questions using external knowledge.\n\nHallucination in large language models refers to generating text that sounds plausible but is factually incorrect or unsupported by evidence.\n\nAny HuggingFace text-generation model can be used with this system, such as SmolLM-135M-Instruct or Qwen2.5.",
+      "hallucination_score": 0.391304347826087,
+      "correction_attempted": true,
+      "correction_succeeded": true,
+      "attempts": 3
+    }
+  ]
+}
